@@ -1,0 +1,20 @@
+<root>
+    <child1 bar="2">
+        <child1child1 batz="3">
+            <element>Element1</element>
+            <element>Element2</element>
+        </child1child1>
+        <child1child2>
+            <element>Element1</element>
+            <element>Element2</element>
+        </child1child2>
+    </child1>
+    <child2 batz="4">
+        <child2child1>
+            <element>Element1</element>
+            <element>Element2</element>
+        </child2child1>
+        <other>foo</other>
+        <empty/>
+    </child2>
+</root>

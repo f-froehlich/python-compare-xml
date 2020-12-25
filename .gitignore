@@ -1,0 +1,10 @@
+# Byte-compiled / optimized / DLL files
+__pycache__
+.idea
+htmlcov
+.pytest_cache
+.coverage
+coverage.xml
+compare_xml.egg-info
+dist
+build
