@@ -27,12 +27,14 @@ import logging
 #  and also my other projects <https://github.com/f-froehlich>
 from xml.etree.ElementTree import Element
 
+from lxml import etree
+
 
 def compare(e1, e2):
-    if not isinstance(e1, Element):
+    if not isinstance(e1, Element) and not isinstance(e1, etree._Element):
         logging.debug('e1 is not instance of xml.etree.ElementTree.Element')
         return False
-    if not isinstance(e2, Element):
+    if not isinstance(e2, Element) and not isinstance(e2, etree._Element):
         logging.debug('e2 is not instance of xml.etree.ElementTree.Element')
         return False
 

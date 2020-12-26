@@ -45,7 +45,7 @@ additional_files = [
 ]
 setup_args = dict(
     name='compare_xml',
-    version='1.0.0',
+    version='1.1.0',
     description='Comparator for XML Elements',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n\n' + CONTRIBUTORS + '\n\n\n' + CHANGELOG,
